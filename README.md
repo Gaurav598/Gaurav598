@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" />
-  <img src="assets/hero.svg" width="100%" alt="Gaurav Thakur — Backend Engineering, Distributed Systems, Open Source" />
+  <source media="(max-width: 600px)" srcset="assets/systems-hero-mobile.svg" />
+  <img src="assets/systems-hero.svg" width="100%" alt="Gaurav Thakur — Backend Engineering, Distributed Systems, Open Source" />
 </picture>
 
 <p align="center">
