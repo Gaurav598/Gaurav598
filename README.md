@@ -85,6 +85,17 @@ I practice data structures and algorithms alongside backend fundamentals, design
   <a href="https://github.com/Gaurav598?tab=overview"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Gaurav598&amp;theme=github_dark" width="100%" alt="Contribution activity graph for Gaurav598; view GitHub activity if this image is unavailable" /></a>
 </div>
 
+<details>
+<summary>Contribution snake</summary>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gaurav598/Gaurav598/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gaurav598/Gaurav598/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Gaurav598/Gaurav598/output/github-contribution-grid-snake.svg" alt="Animated snake traversing Gaurav's GitHub contribution graph" width="100%" />
+</picture>
+
+</details>
+
 ## `~/connect`
 
 [![GitHub](https://img.shields.io/badge/Find%20me%20on%20GitHub-111827?logo=github)](https://github.com/Gaurav598)
