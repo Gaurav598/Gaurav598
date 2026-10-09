@@ -1,0 +1,42 @@
+name: Contribution snake
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Generate SVGs for Gaurav598
+        uses: Platane/snk/svg-only@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_user_name: Gaurav598
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Publish to output branch without rewriting history
+        run: |
+          mkdir -p "$RUNNER_TEMP/snake"
+          cp dist/*.svg "$RUNNER_TEMP/snake/"
+          git fetch origin output || true
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git switch -c output --track origin/output
+          else
+            git switch --orphan output
+          fi
+          cp "$RUNNER_TEMP/snake/"*.svg .
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update contribution snake'
+            git push origin output
+          fi
