@@ -62,7 +62,7 @@ Passenger and rider mobile apps cover ride requests, bidding, status updates, an
 
 ### [FlashFlow — distributed flash-sale engine](https://github.com/Gaurav598/FlashFlow-Distributed-Engine)
 
-An inventory reservation experiment organized into API gateway, authentication, stock, and order services. The code uses **Node.js/Express**, **Redis**, MongoDB, containers, and Kubernetes manifests to explore contention and service isolation. The repository includes a k6 stress-test script; performance claims require reproducible results.
+An inventory reservation experiment organized into API gateway, authentication, stock, and order services. The code uses **Node.js/Express**, **Redis**, MongoDB, containers, and Kubernetes manifests to explore contention and service isolation. The repository includes a k6 script for repeatable load experiments.
 
 `JavaScript` · `Node.js` · `Redis` · `MongoDB` · `Docker` · `Kubernetes`
 
@@ -100,6 +100,6 @@ I practice data structures and algorithms alongside backend fundamentals, design
 
 [![GitHub](https://img.shields.io/badge/Find%20me%20on%20GitHub-111827?logo=github)](https://github.com/Gaurav598)
 
-Open an issue in a relevant repository for project-specific discussion. I have omitted unverified personal contact links.
+For project-specific discussion, open an issue in the relevant repository.
 
 <div align="center"><sub>Thanks for visiting. Explore the code, issues, and contribution history behind the work.</sub></div>
