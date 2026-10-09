@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Gaurav Thakur — Systems in Motion</title>
+  <desc id="desc">Gaurav Thakur, backend engineering, distributed systems, and open source, with a subtle connected-services motif.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1019"/><stop offset="1" stop-color="#122d3e"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#2dd4bf" stop-opacity=".2"/><stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="720" height="420" rx="24" fill="url(#bg)"/>
+  <circle cx="620" cy="166" r="210" fill="url(#glow)"/>
+  <path d="M0 419H720" stroke="#5eead4" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M42 50h28" stroke="#5eead4" stroke-width="3" stroke-linecap="round"/>
+  <text x="81" y="57" fill="#9bbfcd" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="2.6">SYSTEMS IN MOTION</text>
+  <g fill="none" stroke="#5db5cb" stroke-width="1.5" stroke-opacity=".3"><path d="M500 130L601 91L675 157L610 248L500 130"/><path d="M601 91L610 248"/></g>
+  <g fill="#133243" stroke="#5eead4" stroke-width="1.5"><circle cx="500" cy="130" r="10"/><circle cx="601" cy="91" r="11"/><circle cx="675" cy="157" r="9"/><circle cx="610" cy="248" r="11"/></g>
+  <g fill="#8be7dd"><circle cx="500" cy="130" r="3"/><circle cx="601" cy="91" r="3"/><circle cx="675" cy="157" r="3"/><circle cx="610" cy="248" r="3"/></g>
+  <g fill="#5eead4" class="motion"><circle r="3" opacity="0"><animateMotion path="M500 130 L601 91 L675 157" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/></circle></g>
+  <text x="42" y="178" fill="#f2f8fc" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="800" letter-spacing="1">GAURAV</text>
+  <text x="42" y="262" fill="#f2f8fc" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="800" letter-spacing="1">THAKUR</text>
+  <text x="45" y="334" fill="#80d9d0" font-family="Arial,Helvetica,sans-serif" font-size="25">Backend Engineering · Distributed Systems</text>
+  <text x="45" y="370" fill="#80d9d0" font-family="Arial,Helvetica,sans-serif" font-size="25">Open Source</text>
+  <style>@media (prefers-reduced-motion: reduce) {.motion {display:none}}</style>
+</svg>
