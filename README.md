@@ -1,83 +1,101 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/systems-hero-mobile.svg" />
-  <img src="assets/systems-hero.svg" width="100%" alt="Gaurav Thakur — Backend Engineering, Distributed Systems, Open Source" />
+  <source media="(max-width: 600px)" srcset="assets/hero-animated-mobile.svg" />
+  <img src="assets/hero-animated.svg" width="100%" alt="Gaurav Thakur — Backend Engineering, Distributed Systems, Open Source. Animated service topology." />
 </picture>
 
 <p align="center">
-  <strong>Software engineering student building real-time products and resilient backend systems.</strong><br />
-  <a href="https://gaurav598.github.io/PortFolio/"><strong>View Portfolio ↗</strong></a>
+  <strong>Building real-time products and learning how systems behave under load.</strong><br />
+  <a href="https://gaurav598.github.io/PortFolio/"><strong>View portfolio ↗</strong></a>
   &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/gaurav-thakur-193619321/">LinkedIn</a>
-  &nbsp;·&nbsp; <a href="https://github.com/Gaurav598">GitHub</a>
+  &nbsp;·&nbsp; <a href="https://github.com/Gaurav598?tab=repositories">Repositories</a>
 </p>
 
-## About
+## 01 · About
 
-I am Gaurav, focused on backend engineering, full-stack development, distributed systems, and Kubernetes open source. I like connecting system design to working software: collaborative editing, real-time ride workflows, and concurrency-aware inventory.
+I am Gaurav, a software engineering student focused on backend engineering, distributed systems, and practical full-stack development. I build to understand the details: shared state in a collaborative editor, changing ride state across two mobile apps, inventory under contention, and the tools around an AI coding agent.
 
-I completed a **three-month Software Engineering Trainee internship at FamilyShell**. I continue to learn through implementation, testing, documentation, and upstream review.
+I completed a **three-month Software Engineering Trainee internship at FamilyShell**. Contributing to established open-source projects has also taught me to read unfamiliar code, test changes, and work through upstream review.
 
-## Engineering Toolkit
+## 02 · Open Source Engineering
 
-**Languages** &nbsp; ![Java](https://img.shields.io/badge/Java-164e63?style=flat-square&logo=openjdk&logoColor=ffffff) ![TypeScript](https://img.shields.io/badge/TypeScript-164e63?style=flat-square&logo=typescript&logoColor=ffffff) ![JavaScript](https://img.shields.io/badge/JavaScript-164e63?style=flat-square&logo=javascript&logoColor=ffffff) ![Python](https://img.shields.io/badge/Python-164e63?style=flat-square&logo=python&logoColor=ffffff) ![SQL](https://img.shields.io/badge/SQL-164e63?style=flat-square&logo=postgresql&logoColor=ffffff)
-
-**Backend & data** &nbsp; ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-164e63?style=flat-square&logo=springboot&logoColor=ffffff) ![Node.js](https://img.shields.io/badge/Node.js-164e63?style=flat-square&logo=nodedotjs&logoColor=ffffff) ![Redis](https://img.shields.io/badge/Redis-164e63?style=flat-square&logo=redis&logoColor=ffffff) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-164e63?style=flat-square&logo=postgresql&logoColor=ffffff)
-
-**Interfaces & delivery** &nbsp; ![React](https://img.shields.io/badge/React-164e63?style=flat-square&logo=react&logoColor=ffffff) ![React Native](https://img.shields.io/badge/React%20Native-164e63?style=flat-square&logo=react&logoColor=ffffff) ![Docker](https://img.shields.io/badge/Docker-164e63?style=flat-square&logo=docker&logoColor=ffffff) ![Kubernetes](https://img.shields.io/badge/Kubernetes-164e63?style=flat-square&logo=kubernetes&logoColor=ffffff)
-
-Also used in current projects: MongoDB, WebSockets, and GitHub Actions.
-
-## Kubernetes Open Source
-
-Two contributions have been **merged upstream**. Four more are **open for review**. Statuses checked on **9 October 2026**.
+**2 merged upstream** &nbsp;·&nbsp; **7 open upstream** &nbsp;·&nbsp; **4 organizations contributed to**<br />
+_GitHub PR states checked 10 October 2026. “Open” means proposed and under review, not merged._
 
 **Merged upstream**
 
-| Contribution | Change |
-| :--- | :--- |
-| [kubernetes/perf-tests #4182](https://github.com/kubernetes/perf-tests/pull/4182) | Clarified pod startup status reporting during rolling updates. |
-| [kubernetes-sigs/dra-example-driver #259](https://github.com/kubernetes-sigs/dra-example-driver/pull/259) | Recreated CDI specs when restoring prepared DRA claims. |
+- **[kubernetes/perf-tests #4182](https://github.com/kubernetes/perf-tests/pull/4182)** — made pod startup status wording accurate during rolling updates with surge pods.
+- **[kubernetes-sigs/dra-example-driver #259](https://github.com/kubernetes-sigs/dra-example-driver/pull/259)** — restored transient CDI specs when prepared device claims return from a checkpoint.
 
-**Open for review**
+**Open · Kubernetes ecosystem**
 
-- [kubernetes/kubernetes #141568](https://github.com/kubernetes/kubernetes/pull/141568) — retry failed pod deletions in taint eviction.
-- [kubernetes/perf-tests #4358](https://github.com/kubernetes/perf-tests/pull/4358) — more precise ResourceClaim latency timestamps.
-- [kubernetes/perf-tests #4183](https://github.com/kubernetes/perf-tests/pull/4183) — expose Go runtime metrics in benchmark results.
-- [kubernetes/website #57960](https://github.com/kubernetes/website/pull/57960) — clarify reserved CPU precedence and cgroup compatibility.
+- **[kubernetes/kubernetes #141568](https://github.com/kubernetes/kubernetes/pull/141568)** — proposes durable, rate-limited retries for failed taint-eviction pod deletions.
+- **[kubernetes/perf-tests #4358](https://github.com/kubernetes/perf-tests/pull/4358)** — proposes informer receive times for sub-second ResourceClaim latency measurements.
+- **[kubernetes/perf-tests #4183](https://github.com/kubernetes/perf-tests/pull/4183)** — proposes Go heap, GC, and allocation metrics alongside benchmark results.
+- **[kubernetes/test-infra #38012](https://github.com/kubernetes/test-infra/pull/38012)** — routes the triage page’s File Bug link to the repository selected by a literal Repo filter.
+- **[kubernetes/website #57960](https://github.com/kubernetes/website/pull/57960)** — clarifies reserved CPU precedence and incompatible kubelet cgroup settings.
 
-## Featured Projects
+**Open · Apache and Redis**
 
-### 01 · [CodeCollab](https://github.com/Gaurav598/CodeCollab) — Developer Collaboration
+- **[apache/beam #40496](https://github.com/apache/beam/pull/40496)** — proposes streaming Dask side inputs one partition at a time to avoid eager local materialization.
+- **[redis/redis #15923](https://github.com/redis/redis/pull/15923)** — proposes a bounded `redis-cli` cluster-join wait when cluster bus ports are unreachable.
 
-A multi-file coding workspace with Monaco, Yjs synchronization, chat, presence, and code execution. The architecture separates a **Next.js/React frontend**, **Spring Boot API**, and **Node.js sync service**, backed by MongoDB and Redis.
+## 03 · Featured Systems
 
-**System shape:** `Next.js / React` → `Spring Boot` + `Node.js sync` → `MongoDB / Redis`
+Four projects, each centered on a different engineering problem and a concrete system to explore it.
 
-### 02 · [Flux](https://github.com/Gaurav598/Flux) — Ride Booking
+<a href="https://github.com/Gaurav598/CodeCollab">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/codecollab-card-mobile.svg" />
+    <img src="assets/codecollab-card.svg" width="100%" alt="CodeCollab — real-time developer collaboration. Editor, sync, API, and data layers." />
+  </picture>
+</a>
 
-Passenger and rider mobile apps cover ride requests, bidding, status updates, and map-based flows. The repository contains **React Native apps**, a **Spring Boot backend**, PostgreSQL, Redis, and WebSocket messaging. Phone verification and location features are represented in source; its current payment service uses free subscriptions.
+**[CodeCollab](https://github.com/Gaurav598/CodeCollab)** gives developers a shared, multi-file coding workspace. Monaco and Yjs handle collaborative editing; chat, presence, and code execution sit alongside a **Next.js frontend**, **Spring Boot API**, and **Node.js sync service**, with MongoDB and Redis.
 
-**System shape:** `React Native` → `Spring Boot / WebSockets` → `PostgreSQL / Redis`
+<a href="https://github.com/Gaurav598/Flux">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/flux-card-mobile.svg" />
+    <img src="assets/flux-card.svg" width="100%" alt="Flux — real-time ride booking. Rider, bidding, ride state, and maps." />
+  </picture>
+</a>
 
-### 03 · [FlashFlow](https://github.com/Gaurav598/FlashFlow-Distributed-Engine) — Flash-Sale Inventory
+**[Flux](https://github.com/Gaurav598/Flux)** coordinates passenger requests, rider bids, and changing ride status across two **React Native** apps. Its **Spring Boot** backend uses WebSockets, PostgreSQL, and Redis; the apps contain map and location flows. Flux is a **demo/test project**, and its current payment service uses free subscriptions.
 
-An inventory reservation experiment with gateway, authentication, stock, and order services. It uses **Node.js/Express**, Redis, MongoDB, containers, and Kubernetes manifests to explore contention and service isolation. A k6 script supports repeatable load experiments.
+<a href="https://github.com/Gaurav598/FlashFlow-Distributed-Engine">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/flashflow-card-mobile.svg" />
+    <img src="assets/flashflow-card.svg" width="100%" alt="FlashFlow — flash-sale inventory. Gateway, stock service, Redis, and orders." />
+  </picture>
+</a>
 
-**System shape:** `API gateway` → `Auth / Stock / Order services` → `Redis / MongoDB`
+**[FlashFlow](https://github.com/Gaurav598/FlashFlow-Distributed-Engine)** explores inventory reservation when many requests contend for limited stock. An API gateway separates authentication, stock, and order services; **Redis** coordinates stock operations, MongoDB stores service data, and Kubernetes manifests plus a k6 script support repeatable load experiments.
 
-## GitHub Statistics
+<a href="https://github.com/Gaurav598/NeuraSWE">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/neuraswe-card-mobile.svg" />
+    <img src="assets/neuraswe-card.svg" width="100%" alt="NeuraSWE — AI software engineering agent. Issue, agent, tests, and pull request workflow." />
+  </picture>
+</a>
+
+**[NeuraSWE](https://github.com/Gaurav598/NeuraSWE)** is an AI coding-agent prototype that turns GitHub issues or Jira webhooks into queued runs. A **FastAPI** service, **arq/Redis** worker, and ReAct-style runtime connect repository search, file edits, Docker sandbox commands (with a local fallback), test execution, and optional pull-request creation. A **React** dashboard streams run activity; PostgreSQL stores run state.
+
+## 04 · Engineering Toolkit
+
+**Languages** &nbsp; Java · TypeScript · JavaScript · Python · SQL<br />
+**Backend & real time** &nbsp; Spring Boot · Node.js · Express · FastAPI · WebSockets · Yjs<br />
+**Data & messaging** &nbsp; PostgreSQL · MongoDB · Redis · arq<br />
+**Product surfaces** &nbsp; React · Next.js · React Native<br />
+**Infrastructure & tooling** &nbsp; Docker · Kubernetes · GitHub Actions · k6<br />
+**Agent tooling explored in NeuraSWE** &nbsp; ChromaDB · Ollama · Docker sandboxing
+
+## 05 · Activity & Practice
 
 <div align="center">
-  <a href="https://github.com/Gaurav598"><img src="https://github-readme-stats.vercel.app/api?username=Gaurav598&amp;show_icons=true&amp;hide_border=true&amp;theme=github_dark&amp;rank_icon=github" width="420" alt="GitHub statistics for Gaurav598" /></a>
-  <a href="https://github.com/Gaurav598?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gaurav598&amp;layout=compact&amp;hide_border=true&amp;theme=github_dark" width="320" alt="Most-used languages across Gaurav598 repositories" /></a>
+  <a href="https://github.com/Gaurav598"><img src="https://github-readme-stats.vercel.app/api?username=Gaurav598&amp;show_icons=true&amp;hide_border=true&amp;theme=github_dark&amp;rank_icon=github" width="410" alt="GitHub activity statistics for Gaurav598" /></a>
+  <a href="https://github.com/Gaurav598?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gaurav598&amp;layout=compact&amp;hide_border=true&amp;theme=github_dark" width="310" alt="Repository language breakdown for Gaurav598" /></a>
 </div>
 
-[Explore the repositories directly](https://github.com/Gaurav598?tab=repositories) if these third-party images are unavailable.
-
-## Problem Solving
-
-I practice data structures and algorithms alongside backend fundamentals, design patterns, and system design. My **September 2026 self-reported** progress was **343 LeetCode problems** and **404 Take U Forward problems**; these sets may overlap and are not a unique total.
-
-## Contribution Activity
+These third-party cards are optional visuals; [the repositories](https://github.com/Gaurav598?tab=repositories) remain the source of truth if a card is unavailable.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gaurav598/Gaurav598/output/github-contribution-grid-snake-dark.svg" />
@@ -85,10 +103,12 @@ I practice data structures and algorithms alongside backend fundamentals, design
   <img src="https://raw.githubusercontent.com/Gaurav598/Gaurav598/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake traversing Gaurav's GitHub contribution graph" />
 </picture>
 
-[View my contribution history on GitHub](https://github.com/Gaurav598?tab=overview).
+[View the contribution history directly](https://github.com/Gaurav598?tab=overview) if the animation is unavailable.
 
-## Connect
+I practice data structures, algorithms, backend fundamentals, and system design. My **September 2026 self-reported** progress was **343 LeetCode problems** and **404 Take U Forward problems**. These sets may overlap; they are not a unique total.
 
-[**Portfolio**](https://gaurav598.github.io/PortFolio/) · [**LinkedIn**](https://www.linkedin.com/in/gaurav-thakur-193619321/) · [**GitHub**](https://github.com/Gaurav598)
+## 06 · Connect
 
-For project-specific discussion, open an issue in the relevant repository.
+**[Portfolio](https://gaurav598.github.io/PortFolio/)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/gaurav-thakur-193619321/)** &nbsp;·&nbsp; **[GitHub](https://github.com/Gaurav598)**
+
+For a project-specific discussion, open an issue in the relevant repository.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc"><title id="title">Gaurav Thakur — Systems in Motion</title><desc id="desc">Backend engineering, distributed systems, and open source. A connected service graph carries quiet signal pulses.</desc><defs>
+      <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#080e19"/><stop offset=".58" stop-color="#0d1b2c"/><stop offset="1" stop-color="#102b3c"/></linearGradient>
+      <linearGradient id="accent" x2="1" y2="0"><stop stop-color="#69e6d7"/><stop offset="1" stop-color="#64a8f5"/></linearGradient>
+      <radialGradient id="ambient"><stop stop-color="#1da8bd" stop-opacity=".2"/><stop offset="1" stop-color="#1da8bd" stop-opacity="0"/></radialGradient>
+      <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#8abbd1" stroke-opacity=".07"/></pattern>
+      <clipPath id="frame"><rect width="1200" height="360" rx="24"/></clipPath>
+    </defs>
+    <rect width="1200" height="360" rx="24" fill="url(#surface)"/>
+    <g clip-path="url(#frame)"><rect width="1200" height="360" fill="url(#grid)"/>
+      <circle cx="1020" cy="155" r="285" fill="url(#ambient)"/>
+      <path d="M0 358H1200" stroke="url(#accent)" stroke-opacity=".55" stroke-width="2"/>
+    </g><g font-family="Inter,Segoe UI,Arial,sans-serif">
+          <rect x="54" y="37" width="43" height="35" rx="10" fill="#102c3d" stroke="#69e6d7" stroke-opacity=".65"/>
+          <text x="65" y="61" fill="#9df3e9" font-size="17" font-weight="800">G.</text>
+          <text x="113" y="60" fill="#a3c1ce" font-size="14" font-weight="700" letter-spacing="3">SYSTEMS IN MOTION</text>
+          <text x="54" y="171" fill="#f3f8fb" font-size="83" font-weight="800" letter-spacing="2">GAURAV</text>
+          <text x="54" y="255" fill="#f3f8fb" font-size="83" font-weight="800" letter-spacing="2">THAKUR</text>
+          <text x="58" y="311" fill="#9ce4df" font-size="22" font-weight="500">Backend Engineering · Distributed Systems · Open Source</text>
+          <text x="1094" y="47" fill="#7b9db0" font-size="13" letter-spacing="2">G / 598</text>
+        </g>
+        <path d="M745 142L841 142L946 81L1080 115L1140 190M841 142L947 250L1080 115M946 81L947 250M947 250L1140 190" fill="none" stroke="#6bb7ca" stroke-opacity=".38" stroke-width="1.7"/>
+        <path d="M745 142L790 72L946 81M841 142L882 294L947 250" fill="none" stroke="#6bb7ca" stroke-opacity=".15" stroke-width="1.5"/>
+        <g fill="#102d3e" stroke="#72dfd4" stroke-width="1.7">
+          <circle cx="745" cy="142" r="10"/><circle cx="841" cy="142" r="16"/>
+          <circle cx="946" cy="81" r="12"/><circle cx="947" cy="250" r="13"/>
+          <circle cx="1080" cy="115" r="14"/><circle cx="1140" cy="190" r="10"/>
+        </g>
+        <g fill="#a9f6ea"><circle cx="745" cy="142" r="2.6"/><circle cx="841" cy="142" r="4"/><circle cx="946" cy="81" r="3"/><circle cx="947" cy="250" r="3"/><circle cx="1080" cy="115" r="3.5"/><circle cx="1140" cy="190" r="2.6"/></g>
+        <g fill="#94b5c5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">
+          <text x="805" y="184">API</text><text x="912" y="48">EVENTS</text><text x="911" y="285">STATE</text><text x="1048" y="81">COMPUTE</text><text x="1103" y="220">DATA</text>
+        </g>
+        <g class="motion" fill="#8bf4e2">
+          <circle r="3.5" opacity="0"><animateMotion path="M745 142L841 142L946 81L1080 115" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/></circle>
+          <circle r="3" opacity="0"><animateMotion path="M841 142L947 250L1140 190" dur="9s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="9s" begin="2s" repeatCount="indefinite"/></circle>
+          <circle cx="841" cy="142" r="22" fill="none" stroke="#64e2d4" stroke-width="1"><animate attributeName="opacity" values=".06;.3;.06" dur="5s" repeatCount="indefinite"/></circle>
+        </g><style>@media (prefers-reduced-motion: reduce){.motion{display:none}}</style></svg>
