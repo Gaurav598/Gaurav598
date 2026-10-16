@@ -18,26 +18,44 @@ I completed a **three-month Software Engineering Trainee internship at FamilyShe
 
 ## 02 · Open Source Engineering
 
-**2 merged upstream** &nbsp;·&nbsp; **7 open upstream** &nbsp;·&nbsp; **4 organizations contributed to**<br />
-_GitHub PR states checked 10 October 2026. “Open” means proposed and under review, not merged._
+**3 merged upstream** &nbsp;·&nbsp; **14 open upstream** &nbsp;·&nbsp; **7 organizations** &nbsp;·&nbsp; **1 highlighted bug report**<br />
+_GitHub PR states checked 16 October 2026. “Open” means proposed, not merged._
 
 **Merged upstream**
 
-- **[kubernetes/perf-tests #4182](https://github.com/kubernetes/perf-tests/pull/4182)** — made pod startup status wording accurate during rolling updates with surge pods.
-- **[kubernetes-sigs/dra-example-driver #259](https://github.com/kubernetes-sigs/dra-example-driver/pull/259)** — restored transient CDI specs when prepared device claims return from a checkpoint.
+- **[apache/beam #40496](https://github.com/apache/beam/pull/40496)** — added opt-in lazy Dask side inputs with worker-safe partition computation.
+- **[kubernetes/perf-tests #4182](https://github.com/kubernetes/perf-tests/pull/4182)** — clarified pod startup status messages during rolling updates.
+- **[kubernetes-sigs/dra-example-driver #259](https://github.com/kubernetes-sigs/dra-example-driver/pull/259)** — restored CDI specs when prepared DRA claims are recovered from a checkpoint.
 
 **Open · Kubernetes ecosystem**
 
 - **[kubernetes/kubernetes #141568](https://github.com/kubernetes/kubernetes/pull/141568)** — proposes durable, rate-limited retries for failed taint-eviction pod deletions.
-- **[kubernetes/perf-tests #4358](https://github.com/kubernetes/perf-tests/pull/4358)** — proposes informer receive times for sub-second ResourceClaim latency measurements.
-- **[kubernetes/perf-tests #4183](https://github.com/kubernetes/perf-tests/pull/4183)** — proposes Go heap, GC, and allocation metrics alongside benchmark results.
-- **[kubernetes/test-infra #38012](https://github.com/kubernetes/test-infra/pull/38012)** — routes the triage page’s File Bug link to the repository selected by a literal Repo filter.
-- **[kubernetes/website #57960](https://github.com/kubernetes/website/pull/57960)** — clarifies reserved CPU precedence and incompatible kubelet cgroup settings.
+- **[kubernetes/kubernetes #143105](https://github.com/kubernetes/kubernetes/pull/143105)** — proposes the default dialer when connection-rotation receives a nil dial callback.
+- **[kubernetes/perf-tests #4358](https://github.com/kubernetes/perf-tests/pull/4358)** — proposes more precise timestamps for ResourceClaim latency measurements.
+- **[kubernetes/perf-tests #4183](https://github.com/kubernetes/perf-tests/pull/4183)** — proposes Go runtime memory, GC, and allocation metrics in benchmark results.
+- **[kubernetes/test-infra #38012](https://github.com/kubernetes/test-infra/pull/38012)** — proposes routing triage bug reports to the repository selected by the Repo filter.
+- **[kubernetes/website #57960](https://github.com/kubernetes/website/pull/57960)** — proposes clearer `reservedSystemCPUs` precedence and incompatible kubelet cgroup settings.
 
-**Open · Apache and Redis**
+**Open · Google Research and GoogleTest**
 
-- **[apache/beam #40496](https://github.com/apache/beam/pull/40496)** — proposes streaming Dask side inputs one partition at a time to avoid eager local materialization.
+- **[google-research/google-research #3447](https://github.com/google-research/google-research/pull/3447)** — proposes avoiding gradient mutation in Shampoo SGD grafting.
+- **[google-research/google-research #3449](https://github.com/google-research/google-research/pull/3449)** — proposes correct Shampoo optimizer state initialization on CPU.
+- **[google/googletest #5123](https://github.com/google/googletest/pull/5123)** — proposes aggregate skipped-test counts in GoogleTest XML output.
+- **[google/googletest #5125](https://github.com/google/googletest/pull/5125)** — proposes correct JSON output for quoted `RecordProperty` keys.
+
+**Open · Apache Beam**
+
+- **[apache/beam #40625](https://github.com/apache/beam/pull/40625)** — proposes resolving string annotations in callable type hints.
+- **[apache/beam #40631](https://github.com/apache/beam/pull/40631)** — proposes preserving HTTP errors when quota responses have non-JSON bodies.
+
+**Open · Redis and Supabase**
+
 - **[redis/redis #15923](https://github.com/redis/redis/pull/15923)** — proposes a bounded `redis-cli` cluster-join wait when cluster bus ports are unreachable.
+- **[supabase/supabase #51838](https://github.com/supabase/supabase/pull/51838)** — proposes preserving existing nonnumeric SQL `LIMIT` expressions in Supabase Studio.
+
+**Highlighted bug report**
+
+- **[Supabase issue #51827](https://github.com/supabase/supabase/issues/51827)** — Table Editor numeric filters round high-precision decimal values: JavaScript `Number` conversion changes PostgreSQL `numeric`/`decimal` filter inputs (open).
 
 ## 03 · Featured Systems
 
