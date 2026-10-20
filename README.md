@@ -24,6 +24,7 @@ _GitHub PR states checked 16 October 2026. “Open” means proposed, not merged
 **Merged upstream**
 
 - **[apache/beam #40496](https://github.com/apache/beam/pull/40496)** — added opt-in lazy Dask side inputs with worker-safe partition computation.
+- **[apache/beam #40631](https://github.com/apache/beam/pull/40631)** — proposes preserving HTTP errors when quota responses have non-JSON bodies.
 - **[kubernetes/perf-tests #4182](https://github.com/kubernetes/perf-tests/pull/4182)** — clarified pod startup status messages during rolling updates.
 - **[kubernetes-sigs/dra-example-driver #259](https://github.com/kubernetes-sigs/dra-example-driver/pull/259)** — restored CDI specs when prepared DRA claims are recovered from a checkpoint.
 
@@ -46,16 +47,15 @@ _GitHub PR states checked 16 October 2026. “Open” means proposed, not merged
 **Open · Apache Beam**
 
 - **[apache/beam #40625](https://github.com/apache/beam/pull/40625)** — proposes resolving string annotations in callable type hints.
-- **[apache/beam #40631](https://github.com/apache/beam/pull/40631)** — proposes preserving HTTP errors when quota responses have non-JSON bodies.
 
-**Open · Redis and Supabase**
+**Open · Redis**
 
 - **[redis/redis #15923](https://github.com/redis/redis/pull/15923)** — proposes a bounded `redis-cli` cluster-join wait when cluster bus ports are unreachable.
-- **[supabase/supabase #51838](https://github.com/supabase/supabase/pull/51838)** — proposes preserving existing nonnumeric SQL `LIMIT` expressions in Supabase Studio.
 
 **Highlighted bug report**
 
-- **[Supabase issue #51827](https://github.com/supabase/supabase/issues/51827)** — Table Editor numeric filters round high-precision decimal values: JavaScript `Number` conversion changes PostgreSQL `numeric`/`decimal` filter inputs (open).
+- **[Supabase issue #51827](https://github.com/supabase/supabase/issues/51827)** — Table Editor numeric filters round high-precision decimal values: JavaScript `Number` conversion changes PostgreSQL `numeric`/`decimal` filter inputs (closed).
+- **[Supabase issue #51827](https://github.com/supabase/supabase/issues/51836)** — SQL Editor auto-limit turns LIMIT ALL and LIMIT NULL queries into invalid SQL: Auto-limit appends duplicate `LIMIT` clauses to otherwise valid PostgreSQL queries (closed).
 
 ## 03 · Featured Systems
 
