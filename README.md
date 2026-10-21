@@ -23,6 +23,7 @@ _GitHub PR states checked 16 October 2026. “Open” means proposed, not merged
 
 **Merged upstream**
 
+- **[apache/beam #40625](https://github.com/apache/beam/pull/40625)** — proposes resolving string annotations in callable type hints.
 - **[apache/beam #40496](https://github.com/apache/beam/pull/40496)** — added opt-in lazy Dask side inputs with worker-safe partition computation.
 - **[apache/beam #40631](https://github.com/apache/beam/pull/40631)** — proposes preserving HTTP errors when quota responses have non-JSON bodies.
 - **[kubernetes/perf-tests #4182](https://github.com/kubernetes/perf-tests/pull/4182)** — clarified pod startup status messages during rolling updates.
@@ -43,10 +44,6 @@ _GitHub PR states checked 16 October 2026. “Open” means proposed, not merged
 - **[google-research/google-research #3449](https://github.com/google-research/google-research/pull/3449)** — proposes correct Shampoo optimizer state initialization on CPU.
 - **[google/googletest #5123](https://github.com/google/googletest/pull/5123)** — proposes aggregate skipped-test counts in GoogleTest XML output.
 - **[google/googletest #5125](https://github.com/google/googletest/pull/5125)** — proposes correct JSON output for quoted `RecordProperty` keys.
-
-**Open · Apache Beam**
-
-- **[apache/beam #40625](https://github.com/apache/beam/pull/40625)** — proposes resolving string annotations in callable type hints.
 
 **Open · Redis**
 
