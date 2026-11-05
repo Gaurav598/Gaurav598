@@ -26,6 +26,7 @@ _GitHub PR states checked 2 November 2026. “Open” means proposed, not merged
 - **[apache/beam #40625](https://github.com/apache/beam/pull/40625)** — proposes resolving string annotations in callable type hints.
 - **[apache/beam #40496](https://github.com/apache/beam/pull/40496)** — added opt-in lazy Dask side inputs with worker-safe partition computation.
 - **[apache/beam #40631](https://github.com/apache/beam/pull/40631)** — proposes preserving HTTP errors when quota responses have non-JSON bodies.
+- **[kubernetes/kubernetes #143105](https://github.com/kubernetes/kubernetes/pull/143105)** — proposes the default dialer when connection-rotation receives a nil dial callback.
 - **[kubernetes/perf-tests #4182](https://github.com/kubernetes/perf-tests/pull/4182)** — clarified pod startup status messages during rolling updates.
 - **[kubernetes/website #57960](https://github.com/kubernetes/website/pull/57960)** — proposes clearer `reservedSystemCPUs` precedence and incompatible kubelet cgroup settings.
 - **[kubernetes-sigs/dra-example-driver #259](https://github.com/kubernetes-sigs/dra-example-driver/pull/259)** — restored CDI specs when prepared DRA claims are recovered from a checkpoint.
@@ -33,7 +34,6 @@ _GitHub PR states checked 2 November 2026. “Open” means proposed, not merged
 **Open · Kubernetes ecosystem**
 
 - **[kubernetes/kubernetes #141568](https://github.com/kubernetes/kubernetes/pull/141568)** — proposes durable, rate-limited retries for failed taint-eviction pod deletions.
-- **[kubernetes/kubernetes #143105](https://github.com/kubernetes/kubernetes/pull/143105)** — proposes the default dialer when connection-rotation receives a nil dial callback.
 - **[kubernetes/perf-tests #4358](https://github.com/kubernetes/perf-tests/pull/4358)** — proposes more precise timestamps for ResourceClaim latency measurements.
 - **[kubernetes/perf-tests #4183](https://github.com/kubernetes/perf-tests/pull/4183)** — proposes Go runtime memory, GC, and allocation metrics in benchmark results.
 - **[kubernetes/test-infra #38012](https://github.com/kubernetes/test-infra/pull/38012)** — proposes routing triage bug reports to the repository selected by the Repo filter.
