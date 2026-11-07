@@ -18,7 +18,7 @@ I completed a **three-month Software Engineering Trainee internship at FamilyShe
 
 ## 02 · Open Source Engineering
 
-**6 merged upstream** &nbsp;·&nbsp; **10 open upstream** &nbsp;·&nbsp; **7 organizations** &nbsp;·&nbsp; **2 highlighted bug report**<br />
+**7 merged upstream** &nbsp;·&nbsp; **9 open upstream** &nbsp;·&nbsp; **7 organizations** &nbsp;·&nbsp; **2 highlighted bug report**<br />
 _GitHub PR states checked 2 November 2026. “Open” means proposed, not merged._
 
 **Merged upstream**
