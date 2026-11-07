@@ -7,6 +7,7 @@
   <strong>Building real-time products and learning how systems behave under load.</strong><br />
   <a href="https://gaurav598.github.io/PortFolio/"><strong>View portfolio ↗</strong></a>
   &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/gaurav-thakur-193619321/">LinkedIn</a>
+  &nbsp;·&nbsp; <a href="https://leetcode.com/u/Gaurav598/">LeetCode</a>
   &nbsp;·&nbsp; <a href="https://github.com/Gaurav598?tab=repositories">Repositories</a>
 </p>
 
@@ -19,7 +20,7 @@ I completed a **three-month Software Engineering Trainee internship at FamilyShe
 ## 02 · Open Source Engineering
 
 **7 merged upstream** &nbsp;·&nbsp; **9 open upstream** &nbsp;·&nbsp; **7 organizations** &nbsp;·&nbsp; **2 highlighted bug report**<br />
-_GitHub PR states checked 2 November 2026. “Open” means proposed, not merged._
+_GitHub PR states checked 7 November 2026. “Open” means proposed, not merged._
 
 **Merged upstream**
 
